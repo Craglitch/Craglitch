@@ -1,7 +1,7 @@
 
 ### Craglitch in dfm forum is me !!!
 
-```
+```Python
 Craglitch = 1
 def possible() :
    alive = Craglitch
