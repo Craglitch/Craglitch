@@ -9,14 +9,12 @@ int main()
 {
     char name[64];
     printtf("\nHi whats your name ? ");
-    fgets(name, 64, stdin);
-    if ( name == NULL )
-    {
+ /* --------------------------------------- */
+    do{
         printtf("\nHi whats your name ? ");
         fgets(name, 64, stdin);
-    }else {
-        printf("\nHi %s im Craglitch !!");
-    }
+    }while( name == NULL );
+    printf("Hi %s, im Craglitch !!", name);
     return 0;
 }
 ```
